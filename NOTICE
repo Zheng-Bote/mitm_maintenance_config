@@ -1,0 +1,19 @@
+mitm_maintenance_config
+Copyright 2026 ZHENG Robert
+
+This product includes software developed by The Go Authors.
+Copyright (c) 2009 The Go Authors. All rights reserved.
+
+The following third-party software is included:
+
+- golang.org/x/crypto
+  Copyright (c) 2009 The Go Authors. All rights reserved.
+  License: BSD-3-Clause
+
+- golang.org/x/term
+  Copyright (c) 2009 The Go Authors. All rights reserved.
+  License: BSD-3-Clause
+
+- golang.org/x/sys
+  Copyright (c) 2009 The Go Authors. All rights reserved.
+  License: BSD-3-Clause

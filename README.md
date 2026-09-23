@@ -19,7 +19,7 @@ go build -o encrypt-config main.go
 Provide a raw JSON file (e.g., `config.json`). The tool will prompt you to enter and confirm a password.
 
 ```bash
-./encrypt-config config.json config.enc
+./mitm_maintenance_config config.json config.enc
 ```
 
 ### Decrypt an Encrypted Configuration
@@ -27,8 +27,9 @@ Provide a raw JSON file (e.g., `config.json`). The tool will prompt you to enter
 Use the `-d` flag to decrypt a `.enc` file back to JSON. The tool will prompt for the password.
 
 ```bash
-./encrypt-config -d config.enc decrypted_config.json
+./mitm_maintenance_config -d config.enc decrypted_config.json
 ```
 
 ## Security Note
+
 The tool uses `AES-256-GCM` authenticated encryption. Keys are derived from the supplied password and a randomly generated salt using `Argon2id`.
